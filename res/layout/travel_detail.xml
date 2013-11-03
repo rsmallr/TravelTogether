@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2" >
+    
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingLeft="48dp"
+	    android:paddingRight="48dp"
+	    android:paddingTop="42dp"
+	    android:paddingBottom="42dp"
+        android:background="@drawable/drawable_envelope" >
+	    
+	    <ScrollView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent">
+	        
+		<RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+	    
+	    <TextView
+	        style="@style/TravelDataTitle"
+	        android:id="@+id/textTravleTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	    
+	    <LinearLayout
+	        android:id="@+id/viewTravelDescript"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/textTravleTitle"
+	        android:paddingLeft="18dp"
+	        android:orientation="vertical" >
+	        
+		    <TextView
+       			style="@style/TravelDataText"
+		        android:id="@+id/textOrganizer"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+            
+		    <TextView
+       			style="@style/TravelDataText"
+		        android:id="@+id/textTravelLocation"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+            
+		    <TextView
+       			style="@style/TravelDataText"
+		        android:id="@+id/textTravelTime"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+            
+		    <TextView
+       			style="@style/TravelDataText"
+		        android:id="@+id/textPartner"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+            
+		    <TextView
+       			style="@style/TravelDataText"
+		        android:id="@+id/textTravelVehicle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+            
+		    <TextView
+       			style="@style/TravelDataText"
+		        android:id="@+id/textTravelBudget"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+            
+		    <TextView
+       			style="@style/TravelDataText"
+		        android:id="@+id/textRouterListTitle"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/route_list_" />
+		    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/viewRouteList"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/viewTravelDescript"
+	        android:paddingLeft="18dp"
+	        android:orientation="vertical" >
+	            
+	    </LinearLayout>
+	    
+	    </RelativeLayout>
+	        
+	    </ScrollView>
+	    
+	    <Button 
+	        android:id="@+id/button_join"
+	        android:layout_width="180dp"
+	        android:layout_height="48dp"
+	        android:layout_marginRight="14dp"
+	        android:layout_marginBottom="14dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentBottom="true"
+	        android:background="@drawable/selector_button1"
+	        android:text="@string/i_want_join"
+        	android:textColor="#eeeeee"
+        	android:textSize="28sp"/>
+	    
+	</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+    
+	<include
+	    android:id="@+id/photo_with_frame"
+		layout="@layout/photo_with_frame"
+		android:layout_width="100dp"
+		android:layout_height="120dp"/>
+	
+	<LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="12dp"
+		android:layout_toRightOf="@id/photo_with_frame"
+		android:orientation="vertical" >
+		       
+		<TextView
+			style="@style/TravelDataText"
+			android:id="@+id/textRouteTime"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		       
+		<TextView
+			style="@style/TravelDataText"
+			android:id="@+id/textRouteActivityName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	    
+		<TextView
+			style="@style/TravelDataText"
+			android:id="@+id/textRouteName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		    
+		<TextView
+			style="@style/TravelDataText"
+			android:id="@+id/textRouteAddress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	        
+	</LinearLayout>
+
+</RelativeLayout>

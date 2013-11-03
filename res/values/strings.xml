@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TravelTogether</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="organizer_">Organizer:</string>
+    <string name="startTime_">Start time:</string>
+    <string name="endTime_">End time:</string>
+    <string name="partner_">Partner:</string>
+    <string name="apply_">Apply:</string>
+    <string name="title_activity_create_travel">CreateTravel</string>
+    <string name="serial_comma">, </string>
+    <string name="from">from</string>
+    <string name="departure">departure</string>
+    <string name="arrival">arrival</string>
+    <string name="route_list_">Route list: </string>
+    <string name="i_want_join">I want join</string>
+    <string name="vehicle_">Vehicle:</string>
+    <string name="budget_">Budget:</string>
+
+</resources>

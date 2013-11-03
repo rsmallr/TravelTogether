@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">啾團去旅行</string>
+    <string name="action_settings">設定</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="organizer_">主辦人：</string>
+    <string name="startTime_">開始時間：</string>
+    <string name="endTime_">結束時間：</string>
+    <string name="partner_">參加者：</string>
+    <string name="apply_">申請參加：</string>
+    <string name="serial_comma">、</string>
+    <string name="from">從</string>
+    <string name="departure">出發</string>
+    <string name="arrival">前往</string>
+    <string name="route_list_">行程表：</string>
+    <string name="i_want_join">我要參加</string>
+    <string name="vehicle_">交通方式：</string>
+    <string name="budget_">預算：</string>
+    
+</resources>

@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lookForGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="279dp"
+        android:layout_marginLeft="90dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="220dp"
+            android:layout_height="170dp"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:onClick="onBtnClick"
+            android:scaleType="fitXY"
+            android:src="@drawable/button_1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/travel"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/dragGroup"
+        android:layout_marginBottom="262dp"
+        android:layout_marginRight="70dp"
+        android:layout_toLeftOf="@+id/relativeLayout1" >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="218dp"
+            android:layout_height="190dp"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:onClick="onBtnClick"
+            android:scaleType="fitXY"
+            android:src="@drawable/button_3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dragGroup"
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:layout_alignLeft="@+id/lookForGroup"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="262dp"
+        android:layout_marginLeft="285dp" >
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="200dp"
+            android:layout_height="188dp"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:onClick="onBtnClick"
+            android:scaleType="fitXY"
+            android:src="@drawable/button_2" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/deleteDB"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onBtnClick"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loadDB"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="onBtnClick"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</RelativeLayout>
